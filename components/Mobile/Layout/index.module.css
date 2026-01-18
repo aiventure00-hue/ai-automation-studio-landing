@@ -1,0 +1,19 @@
+.mobileLayout {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.contentWrapper {
+  flex: 1;
+  overflow-y: auto;
+  overflow-x: hidden;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.contentWrapper::-webkit-scrollbar {
+  display: none;
+}

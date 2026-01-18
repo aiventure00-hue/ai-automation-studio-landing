@@ -1,0 +1,52 @@
+.section {
+    width: 100%;
+    padding: 12px 0 0 0;
+    display: flex;
+    gap: 32px;
+}
+
+.sectionHeader {
+    width: 240px;
+}
+
+.sectionLabel {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--muted-foreground);
+    margin-bottom: 4px;
+}
+
+.sectionTitle {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.sectionBody {}
+
+.aboutText {
+    max-width: 520px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+    font-size: 14px;
+}
+
+.pillList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 16px;
+    font-size: 13px;
+}
+
+.pillItem {
+    padding: 4px 10px;
+    border-radius: 999px;
+    border: 1px solid var(--border);
+    background: rgba(13, 17, 23, 0.9);
+    color: var(--muted-foreground);
+    white-space: nowrap;
+}

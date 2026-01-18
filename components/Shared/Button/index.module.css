@@ -1,0 +1,60 @@
+.buttonPrimary {
+    padding: 8px 18px;
+    border-radius: 999px;
+    border: 1px solid var(--primary);
+    background: linear-gradient(135deg, rgba(47, 129, 247, 0.22), rgba(13, 17, 23, 1));
+    color: var(--primary-foreground);
+    font-size: 14px;
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    white-space: nowrap;
+    position: relative;
+    overflow: hidden;
+}
+
+.buttonPrimary::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+    transition: left 0.5s ease;
+}
+
+.buttonPrimary:hover::before {
+    left: 0;
+}
+
+.buttonGhost {
+    padding: 8px 16px;
+    border-radius: 999px;
+    border: 1px solid var(--border);
+    background: rgba(1, 4, 9, 0.9);
+    color: var(--muted-foreground);
+    font-size: 14px;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    white-space: nowrap;
+    position: relative;
+    overflow: hidden;
+}
+
+.buttonGhost::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+    transition: left 0.5s ease;
+}
+
+.buttonGhost:hover::before {
+    left: 0;
+}

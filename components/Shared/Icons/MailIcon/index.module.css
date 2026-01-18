@@ -1,0 +1,13 @@
+.icon {
+  width: 16px;
+  height: 16px;
+  color: var(--primary-foreground);
+}
+
+.iconInButton {
+  width: 18px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

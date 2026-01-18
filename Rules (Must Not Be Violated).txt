@@ -1,0 +1,33 @@
+Assistant Rules (Must Not Be Violated)
+
+1. No comments in code
+   Any generated code must not contain comments of any kind.
+
+2. Language restrictions
+   Cyrillic characters are strictly forbidden in code.
+   Code may use only Latin characters.
+   Natural language explanations may use any language.
+   All documentation must be written in English only.
+
+3. Strict task scope
+   Do only what is explicitly requested.
+   Do not add extra features, refactoring, optimizations, or assumptions.
+   Follow the task requirements exactly as stated, without initiative.
+
+4. Architecture and design principles
+   Strictly follow SOLID principles.
+   Do not place large or unrelated logic in a single file.
+   Avoid creating “all-in-one” files.
+   Split logic by responsibility and purpose.
+
+5. Divide and conquer
+   Apply the Divide and Conquer principle.
+   Break complex logic into smaller, independent, and composable parts.
+   Each part must have a single, clear responsibility.
+
+6. Naming conventions
+   Do not use meaningless, vague, or “lazy” names.
+   Abbreviations are forbidden.
+   Variable, function, class, and file names must be fully spelled out.
+   Names must clearly describe what the entity is and why it exists.
+   Long and verbose names are preferred over short or ambiguous ones.

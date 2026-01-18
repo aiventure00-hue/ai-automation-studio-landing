@@ -1,0 +1,133 @@
+.landingHeader {
+    position: fixed;
+    width: 1120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    border-bottom: 1px solid var(--border);
+    backdrop-filter: blur(8px);
+    z-index: 10;
+}
+
+.logoBlock {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: inherit;
+    transition: opacity 0.2s;
+}
+
+.logoBlock:hover {
+    opacity: 0.8;
+}
+
+.logoMark {
+    width: 28px;
+    height: 28px;
+    border-radius: var(--radius-md);
+    background: radial-gradient(circle at 30% 0%, rgba(47, 129, 247, 0.55), rgba(1, 4, 9, 1));
+    border: 1px solid var(--border);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logoMarkInner {
+    width: 14px;
+    height: 14px;
+    border-radius: var(--radius-sm);
+    border: 2px solid var(--foreground);
+    opacity: 0.7;
+}
+
+.logoTextMain {
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+}
+
+.logoTextSub {
+    font-size: 12px;
+    color: var(--muted-foreground);
+}
+
+.headerNav {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    font-size: 13px;
+}
+
+.headerLink {
+    color: var(--muted-foreground);
+    white-space: nowrap;
+    width: 80px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    position: relative;
+    overflow: hidden;
+    border-radius: var(--radius-md);
+}
+
+.headerLink::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+    transition: left 0.5s ease;
+}
+
+.headerLink:hover::before {
+    left: 0;
+}
+
+.headerLink:hover {
+    color: var(--text-primary);
+}
+
+.headerCta {
+    padding: 6px 14px;
+    border-radius: 999px;
+    border: 1px solid var(--primary);
+    background: rgba(13, 17, 23, 0.92);
+    color: var(--primary-foreground);
+    font-size: 13px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    white-space: nowrap;
+    position: relative;
+    overflow: hidden;
+}
+
+.headerCta::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+    transition: left 0.5s ease;
+}
+
+.headerCta:hover::before {
+    left: 0;
+}
+
+.headerCtaIcon {
+    width: 18px;
+    height: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

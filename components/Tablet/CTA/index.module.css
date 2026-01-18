@@ -1,0 +1,38 @@
+.ctaSection {
+    padding: 40px 20px;
+    max-width: 768px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.ctaMain {
+    margin-bottom: 28px;
+}
+
+.ctaTitle {
+    font-size: 1.875rem;
+    font-weight: 700;
+    color: var(--foreground);
+    margin-bottom: 10px;
+    line-height: 1.2;
+}
+
+.ctaSubtitle {
+    font-size: 15px;
+    line-height: 1.5;
+    color: var(--muted);
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.ctaActions {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.buttonIconWrap {
+    width: 16px;
+    height: 16px;
+}

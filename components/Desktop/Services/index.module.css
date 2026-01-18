@@ -1,0 +1,60 @@
+.section {
+    width: 100%;
+    padding: 12px 0 0 0;
+    display: flex;
+    gap: 32px;
+}
+
+.sectionHeader {
+    width: 240px;
+}
+
+.sectionLabel {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--muted-foreground);
+    margin-bottom: 4px;
+}
+
+.sectionTitle {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.sectionBody {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 16px;
+}
+
+.servicesGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 16px;
+}
+
+.serviceCard {
+    border-radius: var(--radius-lg);
+    background: var(--card);
+    border: 1px solid var(--border);
+    padding: 14px 14px 14px 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.serviceTitle {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.serviceDesc {
+    font-size: 13px;
+    color: var(--muted-foreground);
+}
+
+.serviceMeta {
+    font-size: 11px;
+    color: var(--muted-foreground);
+}

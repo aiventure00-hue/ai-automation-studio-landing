@@ -1,0 +1,70 @@
+.section {
+    width: 100%;
+    padding: 12px 0 0 0;
+    display: flex;
+    gap: 32px;
+}
+
+.sectionHeader {
+    width: 240px;
+}
+
+.sectionLabel {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--muted-foreground);
+    margin-bottom: 4px;
+}
+
+.sectionTitle {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.sectionBody {}
+
+.expertiseGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 16px;
+}
+
+.expertiseCard {
+    border-radius: var(--radius-lg);
+    background: var(--card);
+    border: 1px solid var(--border);
+    padding: 14px 14px 14px 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.expertiseHeader {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.expertiseIconWrap {
+    width: 22px;
+    height: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.expertiseTitle {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.expertiseDesc {
+    font-size: 13px;
+    color: var(--muted-foreground);
+}
+
+.expertiseTag {
+    font-size: 11px;
+    color: var(--muted-foreground);
+}

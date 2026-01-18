@@ -1,0 +1,108 @@
+.hero {
+    padding: 40px 16px 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.heroContent {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    text-align: center;
+}
+
+.heroKicker {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    justify-content: center;
+}
+
+.heroKicker span {
+    padding: 3px 10px;
+    background: var(--accent);
+    color: white;
+    border-radius: 16px;
+    font-size: 11px;
+    font-weight: 500;
+}
+
+.heroTitle {
+    font-size: 1.75rem;
+    font-weight: 700;
+    line-height: 1.2;
+    color: var(--foreground);
+    margin: 0;
+}
+
+.heroSubtitle {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: var(--muted);
+    margin: 0;
+}
+
+.heroActions {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.heroMeta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: center;
+}
+
+.heroMetaItem {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: var(--muted);
+    font-size: 12px;
+}
+
+.heroMetaItem svg {
+    width: 14px;
+    height: 14px;
+}
+
+.heroVisual {
+    display: flex;
+    justify-content: center;
+}
+
+.heroCard {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 16px;
+    max-width: 280px;
+    width: 100%;
+}
+
+.heroCardTitle {
+    font-size: 12px;
+    color: var(--muted);
+    margin-bottom: 4px;
+}
+
+.heroCardMain {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.heroIllustration img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+}
+
+.buttonIconWrap {
+    width: 14px;
+    height: 14px;
+}

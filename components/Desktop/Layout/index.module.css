@@ -1,0 +1,46 @@
+.container {
+    background: radial-gradient(circle at top left, rgba(47, 129, 247, 0.08), transparent 55%), radial-gradient(circle at bottom right, rgba(111, 207, 151, 0.06), transparent 55%), var(--background);
+    color: var(--foreground);
+    height: 100vh;
+    overflow: hidden auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    padding: 0 32px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.container::-webkit-scrollbar {
+    display: none;
+}
+
+.contentWrapper {
+    padding: 100px 15px 0;
+    width: 1120px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+}
+
+.contentWrapper::-webkit-scrollbar {
+    display: none;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+}

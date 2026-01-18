@@ -1,0 +1,35 @@
+.footer {
+  margin-top: 12px;
+  padding: 0 15px;
+  width: 100%;
+  border-top: 1px solid var(--border);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 12px 15px;
+}
+
+.footerLinks {
+  display: flex;
+  gap: 12px;
+  white-space: nowrap;
+}
+
+.footerLink {
+  text-decoration: none;
+  color: var(--muted-foreground);
+  transition: color 0.2s;
+}
+
+.footerLink:hover {
+  color: var(--foreground);
+}
+
+.footerLinks span {
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.footerLinks span:hover {
+  opacity: 0.7;
+}
