@@ -10,8 +10,6 @@ const nextConfig = {
   images: {
     unoptimized: true
   },
-  assetPrefix: '/AIAutomationStudioLanding',
-  basePath: '/AIAutomationStudioLanding',
 }
 
 module.exports = nextConfig
