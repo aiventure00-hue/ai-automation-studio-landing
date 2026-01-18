@@ -10,6 +10,9 @@ const nextConfig = {
   images: {
     unoptimized: true
   },
+  // Remove basePath for GitHub Pages
+  // basePath: '/AIAutomationStudioLanding',
+  // assetPrefix: '/AIAutomationStudioLanding',
 }
 
 module.exports = nextConfig
