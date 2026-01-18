@@ -77,5 +77,9 @@ jspm_packages/
 # DynamoDB Local files
 .dynamodb/
 
+# Security files
+*.pem
+admin_root.pem
+
 # Project specific files
 Rules (Must Not Be Violated).txt
